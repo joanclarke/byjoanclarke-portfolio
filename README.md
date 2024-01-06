@@ -14,3 +14,6 @@ npm i
 
 To hide files
 .gitignore
+
+To view project on local host
+npm run dev
