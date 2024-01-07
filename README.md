@@ -22,4 +22,4 @@ For styling - SASS
 npm install sass@1.68.0
 
 Library Framework motion
-npm i framework-motion@10.16.4
+npm i framer-motion@10.16.4
