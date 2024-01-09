@@ -5,15 +5,16 @@ import Test from './components/navbar/Test'
 const App = () => {
   return (
     <div>
-      <section>
+      <section id="Homepage">
         <Navbar />
       </section>
-      <section>Parallax</section>
+      <section id="Services">Parallax</section>
       <section>Services</section>
-      <section>Parallax</section>
-      <section>Portfolio</section>
-      <section>Portfolio</section>
-      <section>Contact</section>
+      <section id="Portfolio">Parallax</section>
+      <section>Portfolio1</section>
+      <section>Portfolio2</section>
+      <section>Portfolio3</section>
+      <section id="Contact">Contact</section>
     </div>
   )
 }
