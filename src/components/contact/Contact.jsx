@@ -4,11 +4,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="textContainer">
-        <h2>Let's work together</h2>
-        <div className="item">
-          <h2>Mail</h2>
-          <span>hello@react.dev</span>
-        </div>
+        <h1>Let's work together</h1>
         <div className="item">
           <h2>Mail</h2>
           <span>hello@react.dev</span>
