@@ -23,6 +23,7 @@ const textVariants = {
     },
   },
 }
+
 const sliderVariants = {
   initial: {
     x: 0,
@@ -52,7 +53,13 @@ const Hero = () => {
             Web Developer and UX Designer
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
+            <motion.button
+              variants={textVariants}
+
+              // whileHover={{ scale: 1.1 }}
+
+              // transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+            >
               See the Latest Works
             </motion.button>
             <motion.button variants={textVariants} className="contactMe">

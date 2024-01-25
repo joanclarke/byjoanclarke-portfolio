@@ -1,6 +1,7 @@
 .contact {
   height: 100%;
-  max-width: 1366px;
+  // max-width: 1366px;
+  max-width: 80%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -26,11 +27,17 @@
     flex: 1;
     position: relative;
 
-    .phoneSvg {
-      stroke: orange;
-      position: absolute;
-      margin: auto;
-      z-index: -1;
+    // margin: 0 auto;
+    .svgWrapper {
+      display: flex;
+      justify-content: center;
+      .phoneSvg {
+        stroke: orange;
+        position: absolute;
+        z-index: -1;
+        // left: 20px;
+        // margin: 0 auto;
+      }
     }
 
     form {
