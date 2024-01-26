@@ -5,26 +5,30 @@ import { motion, useScroll, useSpring, useTransform } from 'framer-motion'
 const items = [
   {
     id: 1,
-    title: 'React Commerce',
-    img: 'https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/leica-christmas-scott-norris.jpg',
+    title: 'iFlix',
+    img: 'https://i.imgur.com/Iu87Y69.png',
+    // img: 'https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/leica-christmas-scott-norris.jpg',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem doloribus consequuntur facere eos pariatur dolor, amet itaque rem dicta ducimus?',
   },
   {
     id: 2,
-    title: 'Next js Commerce',
-    img: 'https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/reboot-linda-woods.jpg',
+    title: 'Sparkle',
+    img: 'https://i.imgur.com/YkamJa7.png',
+    // img: 'https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/reboot-linda-woods.jpg',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem doloribus consequuntur facere eos pariatur dolor, amet itaque rem dicta ducimus?',
   },
   {
     id: 3,
-    title: 'Vanilla JS App Commerce',
-    img: 'https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/2/cold-fusion-scott-norris.jpg',
+    title: 'Power In The Word',
+    img: 'https://i.imgur.com/xSChrFJ.png',
+    // img: 'https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/2/cold-fusion-scott-norris.jpg',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem doloribus consequuntur facere eos pariatur dolor, amet itaque rem dicta ducimus?',
   },
   {
     id: 4,
-    title: 'Music App',
-    img: 'https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/power-play-ii-mindy-sommers.jpg',
+    title: 'Clono',
+    img: 'https://i.imgur.com/z2VWI9s.png',
+    // img: 'https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/power-play-ii-mindy-sommers.jpg',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem doloribus consequuntur facere eos pariatur dolor, amet itaque rem dicta ducimus?',
   },
 ]
