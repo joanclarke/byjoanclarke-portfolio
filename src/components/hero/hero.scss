@@ -1,3 +1,5 @@
+@import '../../app.scss';
+
 .hero {
   height: calc(100vh - 100px);
   overflow: hidden;
@@ -19,6 +21,14 @@
       justify-content: center;
       gap: 40px;
 
+      @include mobile {
+        height: 50%;
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+      }
+
       h2 {
         // font-size: 30px; /*for larger screen*/
         font-size: 28px; /*for smaller screen*/
@@ -29,6 +39,10 @@
       h1 {
         // font-size: 76px; /*for larger screen*/
         font-size: 62px; /*for smaller screen*/
+
+        @include mobile {
+          font-size: 36px;
+        }
       }
 
       .buttons {
@@ -60,9 +74,22 @@
     top: 0;
     right: 0;
 
+    @include mobile {
+      height: 50%;
+      width: 100%;
+      top: unset;
+      bottom: 0;
+    }
+
+    // img {
+    //   max-height: 100%;
+    //   width: auto;
+    // }
+
     img {
-      max-height: 100%;
-      width: auto;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
     }
   }
 
