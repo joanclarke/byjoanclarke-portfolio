@@ -24,6 +24,29 @@ const textVariants = {
   },
 }
 
+const hoverVariants = {
+  hidden: {
+    opacity: 0,
+    x: '100vw',
+  },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      type: 'spring',
+      delay: 0.5,
+    },
+  },
+}
+
+// const buttonVariants = {
+//   hover: {
+//     scale: 1.1,
+//     textShadow: '0px 0px 8px rgb(255, 255, 255)',
+//     boxShadow: '0px 0px  8px rgb(255, 255, 255)',
+//   },
+// }
+
 const sliderVariants = {
   initial: {
     x: 0,
@@ -52,17 +75,23 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>
             Web Developer and UX Designer
           </motion.h1>
-          <motion.div variants={textVariants} className="buttons">
+          <motion.div className="buttons">
             <motion.button
-              variants={textVariants}
-
-              // whileHover={{ scale: 1.1 }}
+              variants={hoverVariants}
+              initial="hidden"
+              animate="visible"
+              // transition={{ type: 'spring', delay: 0.5 }}
+              // whileHover={{ scale: 1.5, color: '#94dd1f' }}
 
               // transition={{ type: 'spring', stiffness: 400, damping: 10 }}
             >
               See the Latest Works
             </motion.button>
-            <motion.button variants={textVariants} className="contactMe">
+            <motion.button
+              // whileHover={{ scale: 1.1 }}
+              variants={textVariants}
+              className="contactMe"
+            >
               Contact Me
             </motion.button>
           </motion.div>
