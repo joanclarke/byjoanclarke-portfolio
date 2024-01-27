@@ -44,6 +44,7 @@
       @include mobile {
         flex-direction: column;
         gap: 5px;
+        height: 70%;
       }
 
       .imageContainer {
@@ -58,9 +59,10 @@
         img {
           width: 100%;
           height: 100%;
-          object-fit: cover;
+          object-fit: contain;
+
           @include mobile {
-            object-fit: contain;
+            // object-fit: contain;
           }
         }
       }
