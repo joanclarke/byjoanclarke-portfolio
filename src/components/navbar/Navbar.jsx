@@ -13,7 +13,7 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Joan Clarke
+          <img src="/jclarke-signature.png" alt="j.clarke signature" />
         </motion.span>
         <div className="social">
           <a href="#">

@@ -9,7 +9,8 @@
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    // justify-content: space-between;
     height: 100%;
 
     @include mobile {
@@ -22,6 +23,11 @@
 
       @include mobile {
         display: none;
+      }
+
+      img {
+        width: 100px;
+        // height: 10px;
       }
     }
 

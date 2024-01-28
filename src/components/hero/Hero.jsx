@@ -112,7 +112,18 @@ const Hero = () => {
         Creator Developer Interaction Architect
       </motion.div>
       <div className="imageContainer">
-        <img src="/jc-profilepic.png" alt="" />
+        <div className="imageWrapper">
+          <img
+            className="profilePic"
+            src="/jc-profilepic.png"
+            alt="joan clarke profile picture"
+          />
+          <img
+            className="signature"
+            src="/jclarke-signature.png"
+            alt="joan clarke signature"
+          />
+        </div>
       </div>
     </div>
   )

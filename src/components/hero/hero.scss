@@ -86,10 +86,28 @@
     //   width: auto;
     // }
 
-    img {
+    .imageWrapper {
+      position: relative;
       height: 100%;
-      width: 100%;
-      object-fit: cover;
+
+      img.profilePic {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+      }
+
+      img.signature {
+        margin-right: -5px;
+        // background-color: #000000;
+        top: 435px;
+        right: 40px;
+        height: 30%;
+        width: 30%;
+        // object-fit: cover;
+        z-index: 999;
+        position: absolute;
+      }
     }
   }
 
