@@ -3,7 +3,8 @@
 .hero {
   height: calc(100vh - 100px);
   overflow: hidden;
-  background: linear-gradient(180deg, #030309, #000000);
+  background: #000000;
+  // background: linear-gradient(180deg, #030309, #000000);
   position: relative;
 
   .wrapper {
@@ -89,6 +90,13 @@
     .imageWrapper {
       position: relative;
       height: 100%;
+      // background-color: rgba(255, 255, 255, 0.1);
+      // background: rgba(36, 36, 36, 0.5);
+      background: rgba(29, 35, 21, 0.4);
+      // backdrop-filter: saturate(180%) blur(40px);
+      padding: 10px 5px 0px 5px;
+      // padding-bottom: 0px;
+      border-radius: 50px;
 
       img.profilePic {
         height: 100%;
@@ -117,7 +125,7 @@
     // bottom: -120px; /*for larger screen*/
     bottom: -80px; /*for smaller screen*/
     white-space: nowrap;
-    color: #ffffff09;
+    color: rgba(255, 255, 255, 0.045);
     background-color: transparent;
     width: 50%;
     font-weight: bold;
