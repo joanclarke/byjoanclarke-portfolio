@@ -17,17 +17,17 @@ const Navbar = () => {
           <img src="/jc-logo-wht-pink2.png" alt="jc logo" />
         </motion.span>
         <div className="social">
-          <a href="#">
-            <img src="/linkedin.png" alt="" />
+          <a href="https://www.linkedin.com/in/clarkejoan/" target="_blank">
+            <img src="/linkedin.png" alt="linkedIn" />
           </a>
-          <a href="#">
-            <img src="/instagram.png" alt="" />
+          <a href="https://www.instagram.com/iamjoanclarke/" target="_blank">
+            <img src="/instagram.png" alt="instagram" />
           </a>
-          <a href="#">
-            <img src="/youtube.png" alt="" />
+          <a href="https://twitter.com/joanclarke100" target="_blank">
+            <img src="/twitter.png" alt="twitter" />
           </a>
-          <a href="#">
-            <img src="/github.png" alt="" />
+          <a href="https://github.com/joanclarke" target="_blank">
+            <img src="/github.png" alt="github logo" target="_blank" />
           </a>
         </div>
       </div>
