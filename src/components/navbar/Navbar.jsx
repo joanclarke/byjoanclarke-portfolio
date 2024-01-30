@@ -13,7 +13,8 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <img src="/jclarke-signature.png" alt="j.clarke signature" />
+          {/* <img src="/jc-logo-peach&blk.png" alt="jc logo" /> */}
+          <img src="/jc-logo-wht-pink2.png" alt="jc logo" />
         </motion.span>
         <div className="social">
           <a href="#">
