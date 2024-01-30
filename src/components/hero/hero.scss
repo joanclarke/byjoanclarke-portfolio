@@ -23,7 +23,7 @@
       flex-direction: column;
       justify-content: center;
       gap: 40px;
-      z-index: 999;
+      z-index: 990;
 
       @include mobile {
         height: 50%;
@@ -37,13 +37,16 @@
         font-size: 30px; /*for larger screen*/
         // font-size: 28px; /*for smaller screen*/
         // color: rebeccapurple;
-        color: #e8d3d3;
+        // color: #e8d3d3;
+        // color: #b2d6d6;
+        color: #d6b2b2;
         letter-spacing: 10px;
       }
 
       h1 {
         font-size: 76px; /*for larger screen*/
         // font-size: 62px; /*for smaller screen*/
+        // color: #d6b2b2;
 
         @include mobile {
           font-size: 36px;
@@ -53,17 +56,29 @@
       .buttons {
         button {
           padding: 20px;
-          border: 1px solid white;
+          border: 1px solid #d6b2b2;
           border-radius: 10px;
           background-color: transparent;
+          // color: white;
           color: white;
           margin-right: 20px;
           cursor: pointer;
           font-weight: 300;
         }
+
+        .projects:hover {
+          // background-color: #d6b2b2;
+          border: 1px solid white;
+          color: #d6b2b2;
+        }
         .contactMe {
-          background-color: white;
+          background-color: #d6b2b2;
+          font-weight: 400;
           color: #000000;
+        }
+
+        .contactMe:hover {
+          background-color: white;
         }
       }
 

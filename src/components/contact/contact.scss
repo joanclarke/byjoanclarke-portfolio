@@ -12,6 +12,7 @@
   @include mobile {
     width: 100%;
     flex-direction: column;
+    display: block;
   }
 
   .textContainer {
@@ -24,13 +25,14 @@
       gap: 20px;
       text-align: center;
       align-items: center;
-      margin-top: 70px;
+      margin-top: 90px;
+      margin-bottom: 70px;
     }
 
     h1 {
       font-size: 100px;
       line-height: 88px;
-
+      color: white;
       @include mobile {
         font-size: 30px;
       }
@@ -57,7 +59,7 @@
       height: 50%;
 
       .phoneSvg {
-        stroke: orange;
+        stroke: #d6b2b2;
         position: absolute;
         z-index: -1;
         // left: 20px;
@@ -78,6 +80,9 @@
       flex-direction: column;
       gap: 20px;
 
+      // @include mobile {
+      //   margin-top: 90px;
+      // }
       input,
       textarea {
         padding: 20px;
@@ -94,7 +99,7 @@
       button {
         padding: 20px;
         border: none;
-        background-color: orange;
+        background-color: #d6b2b2;
         cursor: pointer;
         font-weight: 500;
 

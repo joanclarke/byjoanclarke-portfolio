@@ -76,24 +76,29 @@ const Hero = () => {
             Frontend Developer and UX Designer
           </motion.h1>
           <motion.div className="buttons">
-            <motion.button
-              variants={hoverVariants}
-              initial="hidden"
-              animate="visible"
-              // transition={{ type: 'spring', delay: 0.5 }}
-              // whileHover={{ scale: 1.5, color: '#94dd1f' }}
+            <a href="#featured" alt="link to portfolio">
+              <motion.button
+                className="projects"
+                variants={hoverVariants}
+                initial="hidden"
+                animate="visible"
+                // transition={{ type: 'spring', delay: 0.5 }}
+                // whileHover={{ scale: 1.5, color: '#94dd1f' }}
 
-              // transition={{ type: 'spring', stiffness: 400, damping: 10 }}
-            >
-              See the Latest Works
-            </motion.button>
-            <motion.button
-              // whileHover={{ scale: 1.1 }}
-              variants={textVariants}
-              className="contactMe"
-            >
-              Contact Me
-            </motion.button>
+                // transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+              >
+                See Case Studies
+              </motion.button>
+            </a>
+            <a href="#Contact" alt="link to contact">
+              <motion.button
+                // whileHover={{ scale: 1.1 }}
+                variants={textVariants}
+                className="contactMe"
+              >
+                Contact Me
+              </motion.button>
+            </a>
           </motion.div>
           <motion.img
             variants={textVariants}
@@ -109,7 +114,7 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Creator Developer Interaction Architect
+        Creator Developer Designer
       </motion.div>
       <div className="imageContainer">
         <div className="imageWrapper">
