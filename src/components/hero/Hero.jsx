@@ -79,22 +79,26 @@ const Hero = () => {
             <a href="#featured" alt="link to portfolio">
               <motion.button
                 className="projects"
-                variants={hoverVariants}
                 initial="hidden"
                 animate="visible"
                 // transition={{ type: 'spring', delay: 0.5 }}
                 // whileHover={{ scale: 1.5, color: '#94dd1f' }}
 
                 // transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                variants={hoverVariants}
               >
-                See Case Studies
+                See My Work
               </motion.button>
             </a>
             <a href="#Contact" alt="link to contact">
               <motion.button
                 // whileHover={{ scale: 1.1 }}
-                variants={textVariants}
+                // variants={textVariants}
                 className="contactMe"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
               >
                 Contact Me
               </motion.button>

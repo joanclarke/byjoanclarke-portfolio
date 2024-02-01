@@ -66,20 +66,23 @@
           font-weight: 300;
         }
 
-        .projects:hover {
-          // background-color: #d6b2b2;
-          border: 1px solid white;
-          color: #d6b2b2;
-        }
         .contactMe {
           background-color: #d6b2b2;
           font-weight: 400;
           color: #000000;
         }
 
-        .contactMe:hover {
-          background-color: white;
-        }
+        // .projects:hover,
+        // .contactMe:hover {
+        //   // background-color: #d6b2b2;
+        //   background-color: white;
+        //   border: 1px solid black;
+        //   color: black;
+        // }
+
+        // .contactMe:hover {
+        //   background-color: white;
+        // }
       }
 
       img {
@@ -155,7 +158,8 @@
     // bottom: -120px; /*for larger screen*/
     bottom: -80px; /*for smaller screen*/
     white-space: nowrap;
-    color: rgba(255, 255, 255, 0.045);
+    // color: rgba(255, 255, 255, 0.045);
+    color: rgba(255, 255, 255, 0.064);
     background-color: transparent;
     width: 50%;
     font-weight: bold;
