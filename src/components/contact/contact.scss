@@ -33,6 +33,7 @@
       font-size: 100px;
       line-height: 88px;
       color: white;
+
       @include mobile {
         font-size: 30px;
       }
@@ -49,8 +50,8 @@
 
     @include mobile {
       width: 100%;
-      padding: 50px;
-      top: -80px;
+      padding-top: 50px;
+      // top: -80px;
     }
     // margin: 0 auto;
     .svgWrapper {

@@ -26,6 +26,10 @@ section {
   scroll-snap-align: center;
 }
 
+section#Footer {
+  height: 100px;
+}
+
 @mixin mobile {
   @media (max-width: 738px) {
     @content;
