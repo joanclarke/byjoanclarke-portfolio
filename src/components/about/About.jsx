@@ -26,11 +26,11 @@ const About = () => {
         <motion.div className="profile" style={{ x: yBg }}>
           <motion.p>
             I’m extremely excited to invite you to explore my profile and learn
-            a little more about me. I am a Front-End Developer with a passion
-            for making clean, responsive and user-friendly websites and
-            applications. My favorite part of being a developer is taking ideas
-            from concept to completion. Being able to bring ideas to life is as
-            intriguing as it is fulfilling.
+            a little more about me. I am a Front-End Developer and UX Designer
+            with a knack for making clean, beautiful, responsive and
+            user-friendly websites. My favorite part of being a designer and
+            developer is being able to bring ideas to life - taking them from
+            concept to completion.
           </motion.p>
         </motion.div>
       </motion.div>
