@@ -9,6 +9,7 @@ const items = [
     img: 'https://i.imgur.com/Iu87Y69.png',
     // img: 'https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/leica-christmas-scott-norris.jpg',
     desc: `iFlix is a site where users can access movie data. Its search feature allows you to access the information of any movie such as IMDB ratings and votes, nominations, awards, metascores and box office info. Its main feature 'Flix Fight' allows users to compare the records of any two movie at a time.`,
+    link: 'https://iflixwatch.netlify.app/',
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ const items = [
     img: 'https://i.imgur.com/YkamJa7.png',
     // img: 'https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/reboot-linda-woods.jpg',
     desc: 'A luxurious events booking agency. Clients can browse gallery of previous events as well as get information on services offered and the team at Sparkles.',
+    link: 'https://joanclarke.github.io/sparkles/',
   },
   {
     id: 3,
@@ -23,6 +25,7 @@ const items = [
     img: 'https://i.imgur.com/xSChrFJ.png',
     // img: 'https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/2/cold-fusion-scott-norris.jpg',
     desc: 'Responsive website. Designed to provide viewers with live streaming services as well as videos of past events.',
+    link: 'https://joanclarke.github.io/Power-in-the-Word-Website/',
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ const items = [
     img: 'https://i.imgur.com/z2VWI9s.png',
     // img: 'https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/power-play-ii-mindy-sommers.jpg',
     desc: 'Clono is a simple clone of Trello. Created as part of a team project (Gecko’s Team 12) during Chingu Voyage 7 | Voyage-7 | https://chingu.io/',
+    link: 'https://chingu-voyage7.github.io/Geckos-Team-12/',
   },
 ]
 
@@ -57,7 +61,9 @@ const Single = ({ item }) => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
             >
-              See Demo
+              <a href={item.link} alt="link to project" target="_blank">
+                See Demo
+              </a>
             </motion.button>
           </motion.div>
         </div>

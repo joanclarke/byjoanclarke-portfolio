@@ -12,7 +12,7 @@ const About = () => {
   })
 
   const yText = useTransform(scrollYProgress, [0, 1], ['0%', '100%'])
-  // const yBg = useTransform(scrollYProgress, [0, 1], ['0%', '100%'])
+  const yBg = useTransform(scrollYProgress, [0, 1], ['0%', '100%'])
 
   return (
     <div
@@ -23,7 +23,7 @@ const About = () => {
       }}
     >
       <motion.div className="wrapper">
-        <motion.div className="profile" style={{ y: yText }}>
+        <motion.div className="profile" style={{ x: yBg }}>
           <motion.p>
             I’m extremely excited to invite you to explore my profile and learn
             a little more about me. I am a Front-End Developer with a passion
