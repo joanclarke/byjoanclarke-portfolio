@@ -15,7 +15,9 @@ const Navbar = () => {
         >
           {/* <img src="/jc-logo-peach&blk.png" alt="jc logo" /> */}
           <img src="/jc-logo-wht-pink2.png" alt="jc logo" />
+          <p>Joan Clarke</p>
         </motion.span>
+
         {/* <div className="social">
           <a href="https://www.linkedin.com/in/clarkejoan/" target="_blank">
             <img src="/linkedin.png" alt="linkedIn" />

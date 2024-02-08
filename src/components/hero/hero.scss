@@ -4,6 +4,7 @@
   height: calc(100vh - 100px);
   overflow: hidden;
   background: #000000;
+
   // background: linear-gradient(180deg, #030309, #000000);
   position: relative;
 
@@ -16,54 +17,105 @@
 
     .textContainer {
       // width: 50%; /*for larger screen*/
+      // margin-top: 50px;
       position: relative;
-      width: 70%; /*for smaller screen*/
+      top: -45px;
+      // width: 70%; /*for smaller screen*/
       height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       gap: 40px;
-      z-index: 990;
+
+      margin-left: -40px;
 
       @include mobile {
+        top: -80px;
+        position: absolute;
         height: 50%;
         width: 100%;
         gap: 20px;
         align-items: center;
         text-align: center;
+        margin-top: 70px;
+        margin-left: -56px;
+        z-index: 997;
+        // z-index: 2;
       }
+      .creative {
+        z-index: 2;
 
-      h2 {
-        font-size: 30px; /*for larger screen*/
-        // font-size: 28px; /*for smaller screen*/
-        // color: rebeccapurple;
-        // color: #e8d3d3;
-        // color: #b2d6d6;
-        color: #d6b2b2;
-        letter-spacing: 10px;
+        p {
+          // padding-bottom: 700px;
+          font-size: 42px;
+          font-family: 'Petrona', serif;
+          line-height: 0.1;
+          // padding-bottom: 20px;
+          color: #d6b2b2;
+          transform: rotate(-180deg);
+          writing-mode: vertical-rl;
+          // text-orientation: mixed;
+          // gap: 20px;
+
+          @include mobile {
+            padding-top: 20px;
+            padding-left: 220px;
+          }
+        }
       }
+      .heading {
+        margin-top: -205px;
 
-      h1 {
-        font-size: 76px; /*for larger screen*/
-        // font-size: 62px; /*for smaller screen*/
-        // color: #d6b2b2;
+        h1 {
+          margin-left: 20px;
+          font-size: 170px; /*for larger screen*/
+          color: #e7dcdc;
+          font-weight: 400;
+          line-height: 0.9;
+          letter-spacing: -12px;
 
-        @include mobile {
-          font-size: 36px;
+          @include mobile {
+            font-size: 80px;
+            letter-spacing: -6px;
+            margin-left: 60px;
+          }
+          span {
+            font-size: 35px;
+            font-family: 'Petrona', serif;
+            color: #d6b2b2;
+            font-weight: 500;
+          }
         }
       }
 
       .buttons {
         button {
           padding: 20px;
-          border: 1px solid #d6b2b2;
+          // border: 1px solid #d6b2b2;
+          border: 1px solid #bd76f3;
           border-radius: 10px;
           background-color: transparent;
           // color: white;
           color: white;
+
           margin-right: 20px;
+          margin-top: -200px;
+          margin-left: 600px;
+          // transform: rotate(-90deg);
+          writing-mode: vertical-rl;
           cursor: pointer;
-          font-weight: 300;
+          font-size: 20px;
+          font-weight: 500;
+          letter-spacing: 5px;
+
+          @include mobile {
+            display: none;
+            margin-top: 10px;
+            writing-mode: unset;
+            margin-left: 0;
+            border: none;
+            padding: 5px 5px 5px 100px;
+          }
         }
 
         .contactMe {
@@ -71,23 +123,27 @@
           font-weight: 400;
           color: #000000;
         }
-
-        // .projects:hover,
-        // .contactMe:hover {
-        //   // background-color: #d6b2b2;
-        //   background-color: white;
-        //   border: 1px solid black;
-        //   color: black;
-        // }
-
-        // .contactMe:hover {
-        //   background-color: white;
-        // }
       }
 
       img {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         width: 50px;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        // width: 50%;
       }
+    }
+  }
+
+  .slidingTextContainer {
+    top: 150px;
+
+    @include mobile {
+      top: 140px;
     }
   }
 
@@ -142,7 +198,7 @@
         height: 30%;
         width: 30%;
         // object-fit: cover;
-        z-index: 999;
+        z-index: 998;
         position: absolute;
 
         @include mobile {

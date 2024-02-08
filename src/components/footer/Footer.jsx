@@ -6,14 +6,7 @@ const Footer = () => {
     <div className="footer">
       <div className="wrapper">
         <hr />
-        {/* <motion.span
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5 }}
-        >
-          <img src="/jc-logo-wht-pink2.png" alt="jc logo" />
-        </motion.span> */}
-        <div className="social">
+        {/* <div className="social">
           <a href="https://www.linkedin.com/in/clarkejoan/" target="_blank">
             <img src="/linkedin.png" alt="linkedIn" />
           </a>
@@ -26,7 +19,7 @@ const Footer = () => {
           <a href="https://github.com/joanclarke" target="_blank">
             <img src="/github.png" alt="github logo" target="_blank" />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   )

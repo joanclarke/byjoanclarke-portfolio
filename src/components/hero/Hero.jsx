@@ -71,10 +71,16 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>JOAN CLARKE</motion.h2>
-          <motion.h1 variants={textVariants}>
-            Frontend Developer and UX Designer
-          </motion.h1>
+          {/* <motion.h2 variants={textVariants}>JOAN CLARKE</motion.h2> */}
+          <div className="creative">
+            <p>creative</p>
+          </div>
+          <div className="heading">
+            <motion.h1 variants={textVariants}>
+              DESIGNER <span>&</span>
+            </motion.h1>
+            <motion.h1 variants={textVariants}>DEVELOPER</motion.h1>
+          </div>
           <motion.div className="buttons">
             <a href="#featured" alt="link to portfolio">
               <motion.button
@@ -89,27 +95,27 @@ const Hero = () => {
                 whileTap={{ scale: 0.95 }}
                 variants={hoverVariants}
               >
-                See My Work
+                SEE MY WORK
               </motion.button>
             </a>
-            <a href="#Contact" alt="link to contact">
+            {/* <a href="#Contact" alt="link to contact">
               <motion.button
-                // whileHover={{ scale: 1.1 }}
-                // variants={textVariants}
                 className="contactMe"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Contact Me
+                CONTACT ME
               </motion.button>
-            </a>
+            </a> */}
           </motion.div>
-          <motion.img
-            variants={textVariants}
-            animate="scrollButton"
-            src="/scroll.png"
-            alt=""
-          />
+          <div className="scrollWrapper">
+            <motion.img
+              variants={textVariants}
+              animate="scrollButton"
+              src="/scroll.png"
+              alt=""
+            />
+          </div>
         </motion.div>
       </div>
       <motion.div

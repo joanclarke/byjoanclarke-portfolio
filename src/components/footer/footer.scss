@@ -8,30 +8,35 @@
   .wrapper {
     // padding: 20px;
     width: 100%;
-    height: 100%;
+    height: 10%;
 
     @include mobile {
+      display: none;
       justify-content: flex-end;
       padding: 20px;
     }
 
-    .social {
-      margin: auto;
-      display: flex;
-      padding: 20px;
-      justify-content: center;
-      align-items: center;
-      gap: 40px;
-
-      img {
-        width: 25px;
-        height: 25px;
-
-        @include mobile {
-          width: 18px;
-          height: 18px;
-        }
-      }
+    hr {
+      border: 5px solid rgb(189, 118, 243);
     }
+
+    // .social {
+    //   margin: auto;
+    //   display: flex;
+    //   padding: 20px;
+    //   justify-content: center;
+    //   align-items: center;
+    //   gap: 40px;
+
+    //   img {
+    //     width: 25px;
+    //     height: 25px;
+
+    //     @include mobile {
+    //       width: 18px;
+    //       height: 18px;
+    //     }
+    //   }
+    // }
   }
 }

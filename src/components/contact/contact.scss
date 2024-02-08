@@ -1,111 +1,156 @@
 @import '../../app.scss';
 
-.contact {
-  height: 100%;
-  // max-width: 1366px;
-  max-width: 80%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  gap: 50px;
+div {
+  .contact {
+    // background-image: url('/pexels-daniel-putzer-633409.jpg');
+    // background-size: cover;
 
-  @include mobile {
-    width: 100%;
-    flex-direction: column;
-    display: block;
-  }
-
-  .textContainer {
-    flex: 1;
+    height: 100%;
+    // max-width: 1366px;
+    max-width: 80%;
+    margin: auto;
     display: flex;
-    flex-direction: column;
-    gap: 40px;
-
-    @include mobile {
-      gap: 20px;
-      text-align: center;
-      align-items: center;
-      margin-top: 90px;
-      margin-bottom: 70px;
-    }
-
-    h1 {
-      font-size: 100px;
-      line-height: 88px;
-      color: white;
-
-      @include mobile {
-        font-size: 30px;
-      }
-    }
-
-    span {
-      font-weight: 300;
-    }
-  }
-
-  .formContainer {
-    flex: 1;
-    position: relative;
+    align-items: center;
+    gap: 50px;
 
     @include mobile {
       width: 100%;
-      padding-top: 50px;
-      // top: -80px;
+      flex-direction: column;
+      display: block;
     }
-    // margin: 0 auto;
-    .svgWrapper {
+
+    .textContainer {
+      flex: 1;
       display: flex;
-      justify-content: center;
-      height: 50%;
+      flex-direction: column;
+      gap: 40px;
 
-      .phoneSvg {
-        stroke: #d6b2b2;
-        position: absolute;
-        z-index: -1;
-        // left: 20px;
-        // margin: 0 auto;
-        top: -30px;
+      @include mobile {
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+        margin-top: 90px;
+        margin-bottom: 70px;
+      }
 
-        svg {
+      h1 {
+        // font-size: 100px;
+        // line-height: 88px;
+        // color: white;
+
+        font-size: 170px;
+
+        color: #e7dcdc;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: -10px;
+        text-transform: capitalize;
+
+        @include mobile {
+          font-size: 80px;
+          letter-spacing: -6px;
+        }
+      }
+
+      // span {
+      //   font-weight: 300;
+      // }
+
+      .social {
+        margin: auto;
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+
+        span {
+          font-weight: 700;
+          font-size: 20px;
+
           @include mobile {
-            width: 100%;
-            padding: 10px;
+            display: none;
+          }
+        }
+
+        img {
+          display: none;
+          width: 25px;
+          height: 25px;
+
+          @include mobile {
+            display: block;
+            width: 18px;
+            height: 18px;
           }
         }
       }
     }
 
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
+    .formContainer {
+      flex: 1;
+      position: relative;
 
-      // @include mobile {
-      //   margin-top: 90px;
-      // }
-      input,
-      textarea {
-        padding: 20px;
-        background-color: transparent;
-        border: 1px solid white;
-        color: white;
-        border-radius: 5px;
+      @include mobile {
+        width: 100%;
+        padding-top: 50px;
+        // top: -80px;
+      }
+      // margin: 0 auto;
+      .svgWrapper {
+        display: flex;
+        justify-content: center;
+        height: 50%;
 
-        @include mobile {
-          padding: 10px;
+        .phoneSvg {
+          // stroke: #d6b2b2;
+          stroke: rgb(189, 118, 243);
+          position: absolute;
+          z-index: -1;
+          // left: 20px;
+          // margin: 0 auto;
+          top: -30px;
+
+          svg {
+            @include mobile {
+              width: 100%;
+              padding: 10px;
+            }
+          }
         }
       }
 
-      button {
-        padding: 20px;
-        border: none;
-        background-color: #d6b2b2;
-        cursor: pointer;
-        font-weight: 500;
-        border-radius: 10px;
-        @include mobile {
-          padding: 10px;
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        // @include mobile {
+        //   margin-top: 90px;
+        // }
+        input,
+        textarea {
+          padding: 20px;
+          background-color: transparent;
+          border: 1px solid white;
+          color: white;
+          border-radius: 5px;
+
+          @include mobile {
+            padding: 10px;
+          }
+        }
+
+        button {
+          padding: 20px;
+          border: none;
+          background-color: #d6b2b2;
+          cursor: pointer;
+          font-weight: 500;
+          border-radius: 10px;
+          @include mobile {
+            padding: 10px;
+          }
         }
       }
     }

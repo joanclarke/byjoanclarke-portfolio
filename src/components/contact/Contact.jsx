@@ -54,7 +54,7 @@ const Contact = () => {
       whileInView="animate"
     >
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>Let's work together</motion.h1>
+        <motion.h1 variants={variants}>LET'S CONNECT</motion.h1>
         {/* <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
           <span>joanclarke100@gmail.com</span>
@@ -63,6 +63,24 @@ const Contact = () => {
           <h2>Phone</h2>
           <span>+1 234 567 8910</span>
         </motion.div> */}
+
+        <div className="social">
+          <a href="https://www.linkedin.com/in/clarkejoan/" target="_blank">
+            <span>LINKEDIN</span> <img src="/linkedin.png" alt="linkedIn" />
+          </a>
+          <a href="https://www.instagram.com/iamjoanclarke/" target="_blank">
+            <span>INSTAGRAM</span>
+            <img src="/instagram.png" alt="instagram" />
+          </a>
+          <a href="https://twitter.com/joanclarke100" target="_blank">
+            <span>TWITTER</span>
+            <img src="/twitter.png" alt="twitter" />
+          </a>
+          <a href="https://github.com/joanclarke" target="_blank">
+            <span>GITHUB</span>
+            <img src="/github.png" alt="github logo" target="_blank" />
+          </a>
+        </div>
       </motion.div>
       <div className="formContainer">
         <div className="svgWrapper">
@@ -106,7 +124,7 @@ const Contact = () => {
             Submit
           </motion.button>
           {error && 'Error'}
-          {success && 'Success'}
+          {success && 'Submitted Successfully'}
         </motion.form>
       </div>
     </motion.div>

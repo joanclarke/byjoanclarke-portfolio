@@ -10,8 +10,6 @@
 
   h1 {
     font-size: 100px;
-    // color: #d6b2b2;
-
     @include mobile {
       font-size: 72px;
       text-align: center;

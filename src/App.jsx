@@ -31,9 +31,9 @@ const App = () => {
       <section id="Contact">
         <Contact />
       </section>
-      <section id="Footer">
+      {/* <section id="Footer">
         <Footer />
-      </section>
+      </section> */}
     </div>
   )
 }
