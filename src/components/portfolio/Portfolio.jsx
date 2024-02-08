@@ -88,7 +88,7 @@ const Portfolio = () => {
   return (
     <div id="featured" className="portfolio" ref={ref}>
       <div className="progress">
-        <h1>Case Studies</h1>
+        <h1>Featured Work</h1>
         <motion.div
           style={{ scaleX: scaleX }}
           className="progressBar"
