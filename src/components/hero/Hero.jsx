@@ -98,7 +98,7 @@ const Hero = () => {
                 SEE MY WORK
               </motion.button>
             </a>
-            {/* <a href="#Contact" alt="link to contact">
+            <a href="#Contact" alt="link to contact">
               <motion.button
                 className="contactMe"
                 whileHover={{ scale: 1.1 }}
@@ -106,7 +106,7 @@ const Hero = () => {
               >
                 CONTACT ME
               </motion.button>
-            </a> */}
+            </a>
           </motion.div>
           <div className="scrollWrapper">
             <motion.img

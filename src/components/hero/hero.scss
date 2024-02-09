@@ -1,7 +1,8 @@
 @import '../../app.scss';
 
 .hero {
-  height: calc(100vh - 100px);
+  // height: calc(100vh - 100px);
+  height: calc(100vh - 50px);
   overflow: hidden;
   background: #000000;
 
@@ -19,7 +20,8 @@
       // width: 50%; /*for larger screen*/
       // margin-top: 50px;
       position: relative;
-      top: -45px;
+      top: -75px;
+      left: 10%;
       // width: 70%; /*for smaller screen*/
       height: 100%;
       display: flex;
@@ -56,19 +58,20 @@
           writing-mode: vertical-rl;
           // text-orientation: mixed;
           // gap: 20px;
-
+          padding-top: 30px;
           @include mobile {
-            padding-top: 20px;
+            padding-top: 100px;
             padding-left: 220px;
           }
         }
       }
       .heading {
-        margin-top: -205px;
+        margin-top: -275px;
 
         h1 {
           margin-left: 20px;
-          font-size: 170px; /*for larger screen*/
+          // font-size: 170px; /*for larger screen*/
+          font-size: 130px;
           color: #e7dcdc;
           font-weight: 400;
           line-height: 0.9;
@@ -90,23 +93,29 @@
 
       .buttons {
         button {
-          padding: 20px;
-          // border: 1px solid #d6b2b2;
-          border: 1px solid #bd76f3;
+          // padding: 20px;
+          border: 1px solid #d6b2b2;
+          // border: 1px solid #bd76f3;
           border-radius: 10px;
           background-color: transparent;
           // color: white;
           color: white;
 
-          margin-right: 20px;
-          margin-top: -200px;
-          margin-left: 600px;
+          // margin-right: 20px;
+          // margin-top: -200px;
+          // margin-left: 600px;
           // transform: rotate(-90deg);
-          writing-mode: vertical-rl;
+          // writing-mode: vertical-rl;
           cursor: pointer;
-          font-size: 20px;
+          // font-size: 20px;
           font-weight: 500;
-          letter-spacing: 5px;
+          // letter-spacing: 5px;
+
+          // background-color: #d6b2b2;
+          // border: none;
+          border-radius: 10px;
+          padding: 10px;
+          width: 200px;
 
           @include mobile {
             display: none;
@@ -119,8 +128,9 @@
         }
 
         .contactMe {
+          margin-left: 10px;
           background-color: #d6b2b2;
-          font-weight: 400;
+          // font-weight: 400;
           color: #000000;
         }
       }
@@ -183,8 +193,8 @@
 
       img.profilePic {
         padding: 0;
-        height: 100%;
-        width: 100%;
+        height: 90%;
+        width: 90%;
         object-fit: cover;
         position: relative;
         background-color: transparent;
