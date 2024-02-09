@@ -243,7 +243,8 @@
         border-radius: 50%;
 
         @include mobile {
-          top: 295px;
+          top: 255px;
+          right: 60px;
         }
       }
     }

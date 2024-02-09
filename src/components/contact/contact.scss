@@ -26,6 +26,7 @@ div {
       gap: 40px;
 
       @include mobile {
+        display: block;
         gap: 20px;
         text-align: center;
         align-items: center;
@@ -72,6 +73,10 @@ div {
 
           @include mobile {
             display: none;
+            // margin: auto;
+            // padding: 20px;
+            // justify-content: center;
+            // align-items: center;
           }
         }
 
