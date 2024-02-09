@@ -64,23 +64,43 @@ const Contact = () => {
           <span>+1 234 567 8910</span>
         </motion.div> */}
 
-        <div className="social">
-          <a href="https://www.linkedin.com/in/clarkejoan/" target="_blank">
+        <motion.div className="social">
+          <motion.a
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            href="https://www.linkedin.com/in/clarkejoan/"
+            target="_blank"
+          >
             <span>LINKEDIN</span> <img src="/linkedin.png" alt="linkedIn" />
-          </a>
-          <a href="https://www.instagram.com/iamjoanclarke/" target="_blank">
+          </motion.a>
+          <motion.a
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            href="https://www.instagram.com/iamjoanclarke/"
+            target="_blank"
+          >
             <span>INSTAGRAM</span>
             <img src="/instagram.png" alt="instagram" />
-          </a>
-          <a href="https://twitter.com/joanclarke100" target="_blank">
+          </motion.a>
+          <motion.a
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            href="https://twitter.com/joanclarke100"
+            target="_blank"
+          >
             <span>TWITTER</span>
             <img src="/twitter.png" alt="twitter" />
-          </a>
-          <a href="https://github.com/joanclarke" target="_blank">
+          </motion.a>
+          <motion.a
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            href="https://github.com/joanclarke"
+            target="_blank"
+          >
             <span>GITHUB</span>
             <img src="/github.png" alt="github logo" target="_blank" />
-          </a>
-        </div>
+          </motion.a>
+        </motion.div>
       </motion.div>
       <div className="formContainer">
         <div className="svgWrapper">
@@ -121,10 +141,10 @@ const Contact = () => {
           <input type="email" required placeholder="Email" name="email" />
           <textarea rows={8} placeholder="Message" name="message" />
           <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
-            Submit
+            SUBMIT
           </motion.button>
           {error && 'Error'}
-          {success && 'Submitted Successfully'}
+          {success && 'SUBMITTED SUCCESSFULLY'}
         </motion.form>
       </div>
     </motion.div>

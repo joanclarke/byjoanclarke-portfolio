@@ -62,7 +62,7 @@ const Single = ({ item }) => {
               whileTap={{ scale: 0.95 }}
             >
               <a href={item.link} alt="link to project" target="_blank">
-                See Demo
+                SEE DEMO
               </a>
             </motion.button>
           </motion.div>
