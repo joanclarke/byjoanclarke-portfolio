@@ -38,8 +38,8 @@ div {
         // line-height: 88px;
         // color: white;
 
-        font-size: 170px;
-
+        // font-size: 170px;
+        font-size: 130px;
         color: #e7dcdc;
         font-weight: 400;
         line-height: 1;
@@ -47,7 +47,7 @@ div {
         text-transform: capitalize;
 
         @include mobile {
-          font-size: 80px;
+          font-size: 70px;
           letter-spacing: -6px;
         }
       }
@@ -58,8 +58,10 @@ div {
 
       .social {
         margin: auto;
+        margin-left: 0;
         display: flex;
         padding: 20px;
+        padding-left: 0;
         justify-content: center;
         align-items: center;
         gap: 40px;
