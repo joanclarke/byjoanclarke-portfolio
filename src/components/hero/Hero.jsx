@@ -108,6 +108,8 @@ const Hero = () => {
               </motion.button>
             </a>
           </motion.div>
+          <div className="name"> Joan Clarke</div>
+
           <div className="scrollWrapper">
             <motion.img
               variants={textVariants}
@@ -133,11 +135,26 @@ const Hero = () => {
             src="/jc-profilepic.png"
             alt="joan clarke profile picture"
           />
-          <img
-            className="signature"
-            src="/jclarke-signature.png"
-            alt="joan clarke signature"
-          />
+          <div className="logoBackground">
+            <motion.img
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5 }}
+              className="signature"
+              src="/jc-logo-wht-pink2.png"
+              alt="jc logo"
+            ></motion.img>
+            <motion.p
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5 }}
+              className="signature1"
+            >
+              <span> Joan Clarke</span>
+
+              <span className="title">UX Designer & Frontend Developer</span>
+            </motion.p>
+          </div>
         </div>
       </div>
     </div>
