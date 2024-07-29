@@ -132,7 +132,8 @@ const Hero = () => {
         <div className="imageWrapper">
           <img
             className="profilePic"
-            src="/jc-profilepic.png"
+            src="/animate-joan.png"
+            // src="/jc-profilepic.png"
             alt="joan clarke profile picture"
           />
           <div className="logoBackground">
