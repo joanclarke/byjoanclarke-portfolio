@@ -77,7 +77,7 @@ const Hero = () => {
           </div>
           <div className="heading">
             <motion.h1 variants={textVariants}>
-              DESIGNER <span>&</span>
+              FRONTEND <span>*</span>
             </motion.h1>
             <motion.h1 variants={textVariants}>DEVELOPER</motion.h1>
           </div>
@@ -126,7 +126,7 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Creator Developer Designer
+        Frontend Developer
       </motion.div>
       <div className="imageContainer">
         <div className="imageWrapper">
@@ -154,7 +154,7 @@ const Hero = () => {
             >
               <span> Joan Clarke</span>
 
-              <span className="title">UX Designer & Frontend Developer</span>
+              <span className="title">Frontend Developer</span>
             </motion.p>
           </div>
         </div>
